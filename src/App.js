@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import meme from './meme.png';
 import './App.css';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <img src={meme}/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
