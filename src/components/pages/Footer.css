@@ -1,0 +1,28 @@
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+}
+
+.footer-item{
+    border-bottom: 2px solid transparent;
+    list-style:none;
+    font-size: 2rem;
+}
+
+.footer-icon{
+    color: #8d8d8d;
+}
+.footer{
+    position:absolute;
+    overflow: auto;
+    height: 50px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    
+}
