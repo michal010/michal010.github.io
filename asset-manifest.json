@@ -1,24 +1,16 @@
 {
-  "files": {
-    "main.css": "/michal010.github.io/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/michal010.github.io/static/js/main.024602ab.chunk.js",
-    "main.js.map": "/michal010.github.io/static/js/main.024602ab.chunk.js.map",
-    "runtime-main.js": "/michal010.github.io/static/js/runtime-main.599f8e36.js",
-    "runtime-main.js.map": "/michal010.github.io/static/js/runtime-main.599f8e36.js.map",
-    "static/js/2.5e41f74f.chunk.js": "/michal010.github.io/static/js/2.5e41f74f.chunk.js",
-    "static/js/2.5e41f74f.chunk.js.map": "/michal010.github.io/static/js/2.5e41f74f.chunk.js.map",
-    "static/js/3.6e85ec14.chunk.js": "/michal010.github.io/static/js/3.6e85ec14.chunk.js",
-    "static/js/3.6e85ec14.chunk.js.map": "/michal010.github.io/static/js/3.6e85ec14.chunk.js.map",
-    "index.html": "/michal010.github.io/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/michal010.github.io/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.5e41f74f.chunk.js.LICENSE.txt": "/michal010.github.io/static/js/2.5e41f74f.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/michal010.github.io/static/media/logo.6ce24c58.svg",
-    "static/media/meme.b881823b.png": "/michal010.github.io/static/media/meme.b881823b.png"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.599f8e36.js",
-    "static/js/2.5e41f74f.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.024602ab.chunk.js"
-  ]
+  "main.css": "/michal010.github.io/static/css/main.364bd2b0.chunk.css",
+  "main.js": "/michal010.github.io/static/js/main.b0e04a54.chunk.js",
+  "main.js.map": "/michal010.github.io/static/js/main.b0e04a54.chunk.js.map",
+  "runtime~main.js": "/michal010.github.io/static/js/runtime~main.78a50b2c.js",
+  "runtime~main.js.map": "/michal010.github.io/static/js/runtime~main.78a50b2c.js.map",
+  "static/js/2.c9ddc311.chunk.js": "/michal010.github.io/static/js/2.c9ddc311.chunk.js",
+  "static/js/2.c9ddc311.chunk.js.map": "/michal010.github.io/static/js/2.c9ddc311.chunk.js.map",
+  "static/js/3.92be99a5.chunk.js": "/michal010.github.io/static/js/3.92be99a5.chunk.js",
+  "static/js/3.92be99a5.chunk.js.map": "/michal010.github.io/static/js/3.92be99a5.chunk.js.map",
+  "index.html": "/michal010.github.io/index.html",
+  "precache-manifest.00cee131d9d334a7ca8174f1f2cab1ae.js": "/michal010.github.io/precache-manifest.00cee131d9d334a7ca8174f1f2cab1ae.js",
+  "service-worker.js": "/michal010.github.io/service-worker.js",
+  "static/css/main.364bd2b0.chunk.css.map": "/michal010.github.io/static/css/main.364bd2b0.chunk.css.map",
+  "static/media/Code.png": "/michal010.github.io/static/media/Code.c6e28d7a.png"
 }
