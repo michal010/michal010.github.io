@@ -8,10 +8,10 @@ function Footer() {
         <>
         <div className='footer'>
             <div className='footer-container'>
-                <Link className='footer-item' to = {'//github.com/michal010?tab=repositories'}>
+                <Link className='footer-item' to = {'//github.com/michal010?tab=repositories'} target ="_blank">
                     <FaGithub className='footer-icon' />
                 </Link>
-                <Link className='footer-item' to = {'//www.youtube.com/channel/UCUYAizGeDTElyQSDsR4c4Qg'}>
+                <Link className='footer-item' to = {'//www.youtube.com/channel/UCUYAizGeDTElyQSDsR4c4Qg'} target = '_blank'>
                     <FaYoutube className='footer-icon' />
                 </Link>
                 <Link className='footer-item'>

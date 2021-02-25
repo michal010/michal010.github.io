@@ -1,11 +1,13 @@
 import React from 'react';
+import Article from '../Article';
+import { projectObjOne } from './Data';
+import { projectObjTwo } from './Data';
 
 function Projects() {
     return (
       <>
-      <div>
-        <img src = 'https://i.gifer.com/77Rt.gif'></img>
-      </div>
+        <Article {...projectObjOne} />
+        <Article {...projectObjTwo} />
       </>
     );
   }

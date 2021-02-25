@@ -31,3 +31,19 @@
   padding: 20px;
   text-align: center;
 }
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(85, 85, 85) rgba(49, 49, 49, 0.425);
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: rgba(49, 49, 49, 0.425);
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(85, 85, 85)
+}
