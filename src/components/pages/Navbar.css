@@ -8,13 +8,13 @@
     position: sticky;
     top: 0;
     z-index: 999;
-    width: 100%;
-    
+    /* width: 100%; */
   }
   
   .navbar-container {
     display: flex;
     justify-content: space-between;
+    justify-content: center;
   }
   
   .container {
@@ -28,9 +28,10 @@
   }
   
   .navbar-logo {
+    margin-left: 20px;
+    width: 128px;
     color: #fff;
     justify-self: start;
-    cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
     display: flex;
@@ -83,7 +84,14 @@
     .NavbarItems {
       position: relative;
     }
-  
+    .navbar-logo {
+      margin-left: 20px;
+      width: 128px;
+      color: #fff;
+      position: relative;
+      flex: auto;
+      flex-direction: column;
+    }
     .nav-menu {
       display: flex;
       flex-direction: column;

@@ -8,11 +8,13 @@ import { Link } from 'react-router-dom'
 
 function Article(
     {
+        articleID,
         header,
         decsription,
         images,
         isSourceAvaliable,
-        codeBranchUrl
+        codeBranchUrl,
+        reverse,
     }
 )
 
@@ -20,10 +22,10 @@ function Article(
 {
     return (
         <>
-        <div>
+        <section id= {'Article'+articleID} >
             <div className='article-container'>
                 <div className='article-header'>{header}</div>
-                <div className='row'>
+                <div className='row' style={ { display: 'flex', flexDirection: reverse ? 'row-reverse' : 'row' }} >
                     <div className='col'>
                         <div className='article-content'>
                             {decsription}
@@ -54,7 +56,7 @@ function Article(
                     
                 </div>
             </div>
-        </div>
+        </section>
         </>
     )
 }

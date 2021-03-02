@@ -1,13 +1,21 @@
-import React from 'react';
+import React, {Component, useRef, useEffect} from 'react';
 import Article from '../Article';
-import { projectObjOne } from './Data';
-import { projectObjTwo } from './Data';
+import ProjectsNavbar from './ProjectsNavbar'
+import { projectObjOne, projectObjTwo, projectObjThree } from './Data';
+import './Projects.css';
+
 
 function Projects() {
     return (
       <>
-        <Article {...projectObjOne} />
-        <Article {...projectObjTwo} />
+        <ProjectsNavbar/>
+        
+        <div className = 'articles-container'>
+
+        <Article {...projectObjOne}/>
+        <Article {...projectObjTwo}/>
+        <Article {...projectObjThree}/>        
+        </div>
       </>
     );
   }

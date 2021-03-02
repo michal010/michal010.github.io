@@ -1,0 +1,33 @@
+.projects-navbar{
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1rem;
+        position: fixed;
+        top: 0;
+        margin-top: 90px;
+        margin-left: 20px;
+        width: 20px;
+        height: 90vh;
+        color: white;
+}
+
+.projects-navbar-item{
+    padding-top: 0px;
+}
+
+.projects-navbar-item:hover{
+    color: red;
+    cursor:pointer;
+}
+
+.projects-navbar-item.active{
+    padding-top: 0px;
+    color:red;
+}
+
+.active{
+    color: green;
+}

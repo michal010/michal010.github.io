@@ -33,10 +33,11 @@
     margin-bottom: 15px;
     padding-right: 15px;
     padding-left: 15px;
-    flex: 1;
     max-width: 50%;
     flex-basis: 50%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
   }
  .home-row {
     display: flex;

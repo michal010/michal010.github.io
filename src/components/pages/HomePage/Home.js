@@ -1,7 +1,6 @@
 import React from 'react'
 import './Home.css';
 import {homeDataPL } from './Data';
-import codeImg from '../images/Code.png';
 
 function Home() {
     return (
@@ -16,7 +15,7 @@ function Home() {
                 </div>
                 <div className='home-col'>
                     <div className='home-code-image-wrapper'>
-                        <img src={codeImg} className='home-code-image' />
+                        
                     </div>
                 </div>
                 
