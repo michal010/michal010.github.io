@@ -2,13 +2,14 @@
     margin-top:20px;
     width: 100%;
     font-size: 24px;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 243, 221);
     
 }
 
 .article-header{
     text-align: center;
     font-size: 38px;
+    color: #db903a
 }
 
 .row {
@@ -50,10 +51,21 @@
 */
 }
 
-.article-footer{
-    margin-top:10px
+.article-footer-item{
+
 }
 
+.article-footer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.article-footer-icon{
+    font-size: 24px;
+}
 
 .article-private-source-code{
     color: red;

@@ -2,7 +2,7 @@ import React from 'react';
 import './Article.css';
 import ImageGallery from  'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
-import { FaCodeBranch } from 'react-icons/fa'
+import { FaCodeBranch, FaYoutube } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 
@@ -12,9 +12,9 @@ function Article(
         header,
         decsription,
         images,
-        isSourceAvaliable,
         codeBranchUrl,
         reverse,
+        youtubeURL
     }
 )
 
@@ -25,11 +25,41 @@ function Article(
         <section id= {'Article'+articleID} >
             <div className='article-container'>
                 <div className='article-header'>{header}</div>
-                <div className='row' style={ { display: 'flex', flexDirection: reverse ? 'row-reverse' : 'row' }} >
+                <div className='row' style={ { flexDirection: reverse ? 'row-reverse' : 'row' }} >
                     <div className='col'>
                         <div className='article-content'>
                             {decsription}
                         </div>
+                        <div className='article-footer'>
+                        {codeBranchUrl ? 
+                        <div className='article-footer-item'>
+                            Source Code:
+                            <Link
+                                to={codeBranchUrl}
+                                target='_blank'
+                            >
+                                <FaCodeBranch className='article-footer-icon' />
+                            </Link>
+                        </div>
+
+                        : 
+                        <div/>
+                        }
+                        {youtubeURL ?
+                        <div className='article-footer-item'>
+                            Demo video:
+                                <Link className='article-footer-icon'
+                                    to={youtubeURL}
+                                    target='_blank'
+                                >
+                                    <FaYoutube></FaYoutube>
+
+                                </Link>
+                        </div> 
+                        :
+                            <div className='article-footer-item'/>
+                        }           
+                </div>
                     </div>
                     <div className='col'>
                         <div className='article-image-gallery-wrapper'>
@@ -37,24 +67,7 @@ function Article(
                         </div>
                     </div>
                 </div>
-                <div className='article-footer'>
-                        Source Code:
-                        {isSourceAvaliable ? 
-                            <Link
-                                to={codeBranchUrl}
-                                target='_blank'
-                            >
-                                <FaCodeBranch className='article-footer-icon' />
-                            </Link>
-                        
-                        : 
-                        <div className='article-private-source-code'>
-                            &lt;Kod prywatny&gt;
-                        </div>
-                        }
-
-                    
-                </div>
+                
             </div>
         </section>
         </>

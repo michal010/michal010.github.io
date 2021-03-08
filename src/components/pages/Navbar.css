@@ -1,11 +1,17 @@
 .navbar {
-    background:  rgba(255, 255, 255, 0);
+    background:  rgb(0, 0, 0);
+
+    /* background-image: url(./Shared/skyCut.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;   */
+
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1rem;
-    position: sticky;
     top: 0;
     z-index: 999;
     /* width: 100%; */

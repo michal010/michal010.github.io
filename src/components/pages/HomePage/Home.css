@@ -30,36 +30,58 @@
     text-align: center;
 }
 .home-col {
-    margin-bottom: 15px;
-    padding-right: 15px;
-    padding-left: 15px;
-    max-width: 50%;
-    flex-basis: 50%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-  }
+  max-width: 50%;
+  max-height: 555px;
+  flex-basis: 50%;
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+}
+
  .home-row {
     display: flex;
     align-content: stretch;
     max-height: 100%;
-  }
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.home-skill-item{
+  align-items: center;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.home-skill-section{
+  margin: auto;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.home-my-skills-text{
+  font-size: 84px;
+  background: rgba(0, 0, 0, 0) -webkit-linear-gradient(0deg, rgb(165, 224, 145) 20%, rgb(233, 109, 101) 80%) repeat scroll 0% 0% padding-box text;;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.home-programs{
+  
+}
+
 img {
     border: 0;
     max-width: 100%;
     vertical-align: middle;
     display: inline-block;
   }
-.home-code-image{
-    max-width: 95%;
-    margin-top: 0;
-    margin-right: 0;
-    margin-left: 0px;
-    padding-right: 0;
-}
-.home-code-image-wrapper{
-    max-width: 100%;
-}
+
 
   @media screen and (max-width: 991px) {
     .home-container {

@@ -9,13 +9,16 @@ import Projects from './components/pages/Projects/Projects';
 import Home from './components/pages/HomePage/Home'
 import Contact from './components/pages/Contact/Contact';
 
+import testImg from './components/pages/Shared/skyPart.png'
+
+
 function App() {
   return (
     
     <Router>
-      <div className="Body">
           <Navbar />
           <div className='Content'>
+            
             <Switch>
               <Route path='/' exact component={Home} />
               <Route path='/Projects' exact component={Projects} />
@@ -24,7 +27,6 @@ function App() {
           <div className='Footer-Spacer'></div>
           </div>
           <Footer />
-        </div>
       </Router>
 
 

@@ -54,8 +54,8 @@ export const projectObjOne = {
             description: 'End Screen (WIP)',
         },
     ],
-    isSourceAvaliable : false,
-    codeBranchUrl : ''
+    codeBranchUrl : 'asd',
+    youtubeURL : '//www.youtube.com/watch?v=fBKREsAlEVg'
 };
 
 export const projectObjTwo = {
@@ -114,7 +114,6 @@ export const projectObjTwo = {
             description: 'Air conditioner mechanics (pushing ball in the direction of the wind)'
         }
     ],
-    isSourceAvaliable : true,
     codeBranchUrl : '//github.com/michal010?tab=repositories',
     reverse : true
 };
@@ -170,7 +169,6 @@ export const projectObjThree = {
             description: 'Avatar editor view (WebGL)'
         }
     ],
-    isSourceAvaliable : true,
     codeBranchUrl : '//github.com/michal010?tab=repositories',
     reverse : false
 };

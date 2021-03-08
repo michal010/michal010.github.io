@@ -4,18 +4,24 @@
 
 .Body{
   /* background-color:#282c34; */
-  background-image: linear-gradient(to bottom right, #181818,#000000);
+  /* background-image: linear-gradient(to bottom right, #181818,#000000); */
+  background-image: url(./components/pages/Shared/skyCut.jpg);
   margin:0;
   border:0;
   padding: 0;
-  height: 100%;
+  height: fit-content;
   max-height: 100%;
-  overflow: hidden;
 }
 .Wrapper{
   height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.test{
+  background-image: url(./components/pages/Shared/skyPart.png);
+  background-blend-mode:screen ;
+  height: 100%;
 }
 
 .Footer-Spacer{
@@ -33,7 +39,12 @@
   bottom: 0;
   right: 0;
   overflow: auto;
-  background-image: linear-gradient(to bottom right, #181818,#000000);
+  /* background-image: linear-gradient(to bottom right, #181818,#000000); */
+  /* background-image: linear-gradient(to bottom right, #182637, #25564F,#2F2556); */
+  /* background-image: linear-gradient(to bottom, #182637, #25564F,#2F2556); */
+  background-image: url(./components/pages/Shared/sky.jpg);
+  background-blend-mode: overlay;
+  background-size: cover;
   padding: 20px;
   text-align: center;
 }
