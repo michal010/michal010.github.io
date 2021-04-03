@@ -11,7 +11,7 @@
         margin-left: 20px;
         width: 20px;
         height: 90vh;
-        color: white;
+        color: #4ee;
 }
 
 .projects-navbar-item{
@@ -19,7 +19,7 @@
 }
 
 .projects-navbar-item:hover{
-    color: red;
+    color: white;
     cursor:pointer;
 }
 

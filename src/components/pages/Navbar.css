@@ -64,7 +64,7 @@
   }
   
   .nav-item:hover {
-    border-bottom: 2px solid #3700ff;
+    border-bottom: 2px solid #4ee;
 
     transition: all 0.2s ease-out;
   }

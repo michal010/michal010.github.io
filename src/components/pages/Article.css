@@ -2,14 +2,14 @@
     margin-top:20px;
     width: 100%;
     font-size: 24px;
-    color: rgb(255, 243, 221);
+    color: rgb(196, 176, 0);
     
 }
 
 .article-header{
     text-align: center;
     font-size: 38px;
-    color: #db903a
+    color: #4ee
 }
 
 .row {
@@ -46,9 +46,6 @@
     word-wrap: break-word;
     text-align: center;
     margin: 20px;
-/*
-
-*/
 }
 
 .article-footer-item{

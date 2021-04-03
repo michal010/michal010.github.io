@@ -5,7 +5,8 @@
 .Body{
   /* background-color:#282c34; */
   /* background-image: linear-gradient(to bottom right, #181818,#000000); */
-  background-image: url(./components/pages/Shared/skyCut.jpg);
+  /* background-image: url(./components/pages/Shared/skyCut.jpg); */
+  background-color: #000;
   margin:0;
   border:0;
   padding: 0;
@@ -25,13 +26,15 @@
 }
 
 .Footer-Spacer{
+  padding-top: 100px;
   width: 100%;
   height: 60px;
   display: absolute;
 }
 
 .Content{
-  font-family: "times new roman", serif;
+  font-family: 'Roboto', sans-serif;
+  /* font-family: "times new roman", serif; */
   font-size: 1.2em;
   position: fixed;
   top: 80px;
@@ -42,10 +45,10 @@
   /* background-image: linear-gradient(to bottom right, #181818,#000000); */
   /* background-image: linear-gradient(to bottom right, #182637, #25564F,#2F2556); */
   /* background-image: linear-gradient(to bottom, #182637, #25564F,#2F2556); */
-  background-image: url(./components/pages/Shared/sky.jpg);
+  /* background-image: url(./components/pages/Shared/sky.jpg); */
+  background-color: #000;
   background-blend-mode: overlay;
   background-size: cover;
-  padding: 20px;
   text-align: center;
 }
 

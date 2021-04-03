@@ -11,7 +11,9 @@
 }
 
 .footer-icon{
-    color: #8d8d8d;
+    /* color: #8d8d8d; */
+    /* color: #4ee; */
+    color: white;
 }
 .footer{
     position:absolute;
