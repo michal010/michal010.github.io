@@ -17,6 +17,12 @@ import {ImageLogo} from './ImageLogo'
 import SkillBars from 'react-skills'
 import SkillBar from 'react-skillbars'
 
+import PaperTosser from './../../../unity/gameviews/PaperTosser'
+
+
+
+
+
 const state = {
   View1: false
 }
@@ -119,7 +125,6 @@ const colors = {
           <div className='home-col'>
               <div className='home-test-container'>
             <div className='home-test'>
-
               Moje umiejętności:
               <div className='home-skillbar-container'>
                   <SkillBars skills={skillsData} barsHeight={40} customLabels={CustomLabels} />
