@@ -4,8 +4,8 @@ function Contact() {
     return (
         <>
         <div>
-          <img src = 'https://i.gifer.com/77Rt.gif'></img>
-          <PaperTosser></PaperTosser>
+          {/* <img src = 'https://i.gifer.com/77Rt.gif'></img> */}
+          <PaperTosser/>
         </div>
         </>
     )

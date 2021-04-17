@@ -29,7 +29,8 @@
   padding-top: 100px;
   width: 100%;
   height: 60px;
-  display: absolute;
+  position: absolute;
+  
 }
 
 .Content{

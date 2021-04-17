@@ -24,7 +24,7 @@ function App() {
               <Route path='/Projects' exact component={Projects} />
               <Route path='/Contact' exact component={Contact} />
             </Switch>
-          {/* <div className='Footer-Spacer'></div> */}
+          <div className='Footer-Spacer'></div>
           </div>
           <Footer />
       </Router>
