@@ -4,6 +4,7 @@
     "occupation": "",
     "description": "Odwieczny gracz, z pasją do tworzenia gier",
     "image": "profilepic.jpg",
+    "fileCV": "CV_Michał_Popielarz.docx",
     "bio": "Jestem osobą kreatywną, szukającą rozwiązań, bądź alternatywnego podejścia dla danego problemu, lubiącą angażować się w rozwój projektu, poprzez dostarczanie nowych pomysłów. Przygodę z programowaniem rozpocząłem w liceum, zaczynając od C++, w czasie studiów poznałem język C#, w którym obecnie programuję. Potrafię szybko się uczyć, lubię podejmować nowe wyzwania, znam dobrze język angielski - nie mam problemu w komunikacji w tym języku, posiadam First Cambridge Certificate. Ukończyłem studia inżynierskie na kierunku Informatyka Ogólna, obecnie posiadam absolutorium studiów magisterskich na kierunku Projektowanie Systemów Informatycznych i Sieci Komputerowych. Od zawsze pasjonowałem się grami, a moim marzeniem jest pracować w branży gier. Przygodę z tworzeniem gier zacząłem mając około 14 lat. Zacząłem od edytora świata gry Warcraft 3, w którym skrypty tworzone są w języku LUA, bądź za pomocą wbudowanego edytora. Używałem również programów Game Maker oraz RPG Maker. Pierwszy kontakt z silnikiem Unity miałem w czasie liceum, lecz pierwsze hobbistyczne projekty stworzyłem dopiero po zapoznaniu się z językiem C# w czasie studiów.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "michael010pl@gmail.com",
