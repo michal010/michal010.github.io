@@ -131,6 +131,7 @@
     "level": "85%",
     "subSkills": [
       { "name": { "pl": "Mechaniki 2D/3D", "en": "2D/3D Game Mechanics" }, "level": "85%", "description": {"pl": "Praca z Rigidbody i Colliderami, wektorami ruchu, przyspieszeniami oraz rotacjami obiektów. Implementacja kinematyki ruchu, obsługa Raycastów, zarządzanie warstwami kolizji oraz precyzyjna kontrola transformacji i płynności ruchu.", "en": "Working with Rigidbody and Colliders, movement vectors, acceleration, and object rotations. Implementing motion kinematics, Raycast interaction, collision layer management, and precise control of transforms and smooth movement."} },
+      { "name": { "pl": "UI", "en": "UI" }, "level": "85%", "description": {"pl": "Tworzenie interfejsów użytkownika z wykorzystaniem Unity UI oraz UI Toolkit. Projektowanie responsywnych layoutów, praca z Canvasem, panelami, anchoringiem i skalowaniem. Implementacja logiki UI, animacji elementów, obsługi zdarzeń oraz integracja interfejsu z mechaniką gry.", "en": "Creating user interfaces using Unity UI and UI Toolkit. Designing responsive layouts, working with Canvas, panels, anchoring, and scaling. Implementing UI logic, element animations, event handling, and integrating UI with core gameplay systems."} },
       { "name": { "pl": "Animacje", "en": "Animations" }, "level": "65%", "description": {"pl": "Obsługa systemu Animator, tworzenie kontrolerów animacji z parametrami i przejściami między stanami. Podstawy blendowania animacji oraz synchronizacji animacji z logiką gry.", "en": "Proficient with the Animator system, creating animation controllers with parameters and state transitions. Basic animation blending and synchronizing animations with gameplay logic."} },
       { "name": { "pl": "Rendering / Grafika", "en": "Render/Graphics" }, "level": "70%", "description": {"pl": "Praca z materiałami, oświetleniem, cieniami i rendererami obiektów (SpriteRenderer / MeshRenderer). Optymalny dobór ustawień wizualnych dla poprawy czytelności sceny.", "en": "Experience with materials, lighting, shadows, and object renderers (SpriteRenderer / MeshRenderer). Adjusting visual settings to improve scene readability and presentation."} },
       { "name": { "pl": "Prefaby i Zarządzanie Assetami", "en": "Prefabs and asset management" }, "level": "75%", "description": {"pl": "Umiejętność tworzenia i organizowania prefabów, zmieniania ich w wielu scenach oraz utrzymania porządku w strukturze projektu. Efektywna organizacja zasobów i folderów.", "en": "Skilled in creating and managing prefabs, updating them across multiple scenes, and maintaining clean project structure. Efficient asset and folder organization."} },
@@ -715,8 +716,32 @@
                 {
                     "original": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2324150/dbabc6d2744c7aacd8a245d6fa1e408bf219b509/header.jpg",
                     "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2324150/dbabc6d2744c7aacd8a245d6fa1e408bf219b509/header.jpg",
-                    "description": "Smartphone app login screen"
+                    "description": "Steam page screen"
+                },
+                {
+                "original": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2324150/0606d4558a6a0fa5f8602e0998a64bbbe2946cd8/ss_0606d4558a6a0fa5f8602e0998a64bbbe2946cd8.1920x1080.jpg",
+                "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2324150/0606d4558a6a0fa5f8602e0998a64bbbe2946cd8/ss_0606d4558a6a0fa5f8602e0998a64bbbe2946cd8.1920x1080.jpg",
+                "description": {
+                  "pl": "Widok z gry",
+                  "en": "In-game view"
                 }
+              },
+              {
+                "original": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2324150/ea2b17423b4e0049f67c0ebc0eac65b9f433bac8/ss_ea2b17423b4e0049f67c0ebc0eac65b9f433bac8.1920x1080.jpg",
+                "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2324150/ea2b17423b4e0049f67c0ebc0eac65b9f433bac8/ss_ea2b17423b4e0049f67c0ebc0eac65b9f433bac8.1920x1080.jpg",
+                "description": {
+                  "pl": "Widok tokenów",
+                  "en": "Tokens view"
+                }
+              },
+              {
+                "original": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2324150/ca4892c8e9dc256cf57d3b372b67bbaaf3eb530d/ss_ca4892c8e9dc256cf57d3b372b67bbaaf3eb530d.1920x1080.jpg",
+                "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2324150/ca4892c8e9dc256cf57d3b372b67bbaaf3eb530d/ss_ca4892c8e9dc256cf57d3b372b67bbaaf3eb530d.1920x1080.jpg",
+                "description": {
+                  "pl": "Widok z gry",
+                  "en": "In-game view"
+                }
+              }
               ]
             },
            {
